@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+.logo-header {
+    display: block;
+    width: 200px;
+    margin: 0 auto 5px;
+}
+
+body {
+    /* background-color: #fceb51;  */
+    background-image: url(./assets/jason-dent-3wPJxh-piRw-unsplash.jpg)
+}
+
+main {
+    width: 375px;
+    border-radius: 20px;
+    padding: 44px 24px 23px;
+    margin: 0 auto 40px;
+    background: #F4F4F4;
+    box-shadow: 10px 20px 16px #070707;
+}
+
+label {
+    color: #555;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+input,
+select, .currency-select {
+    font-weight: 700;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #555;
+    appearance: none;
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 18px;
+    color: #555555;
+
+}
+
+button {
+    color: #ffffff;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background: #772FD3;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+    width: 327px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.currency-box {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.currency-value, .currency-value-to-convert {
+    color: #555;
+    font-size: 20px;
+    font-weight: 700;
+}
